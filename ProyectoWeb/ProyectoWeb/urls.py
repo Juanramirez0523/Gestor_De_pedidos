@@ -6,4 +6,5 @@ urlpatterns = [
     path('', include('ProyectoWebApp.urls')),
     path('blog/', include('blog.urls')),
     path('servicios/', include('servicios.urls')),
+    path('contacto/', include('contacto.urls')),
 ]
