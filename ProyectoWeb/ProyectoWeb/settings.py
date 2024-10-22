@@ -134,3 +134,14 @@ MEDIA_ROOT =os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# configuracion email
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.mail.yahoo.com'  # Servidor SMTP de Yahoo
+# EMAIL_PORT = 587  # Puerto para TLS
+# EMAIL_USE_TLS = True  # Usar TLS
+# EMAIL_HOST_USER = 'juanramirezreyes0522@yahoo.com'  # Tu dirección de correo de Yahoo
+# EMAIL_HOST_PASSWORD = 'Camilojuan05'  # Tu contraseña de Yahoo
+
+# # Utiliza el backend de consola para pruebas
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
